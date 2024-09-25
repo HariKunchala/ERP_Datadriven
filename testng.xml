@@ -1,0 +1,15 @@
+<suite name="DataDrivenFrameWork">
+<test thread-count="5" name="LoginDataDriven">
+<classes>
+<class name="driverFactory.DriverScript"/>
+</classes>
+</test>
+<!--  Test  -->
+<test thread-count="5" name="Suppliertest">
+<classes>
+<class name="driverFactory.TestScript"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  DataDrivenFrameWork  -->
